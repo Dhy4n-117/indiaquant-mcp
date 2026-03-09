@@ -6,7 +6,7 @@
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌──────────────────────────────────────────────────────────────────┐
@@ -59,7 +59,7 @@
 
 ---
 
-## 🛠️ 10 MCP Tools
+## 10 MCP Tools
 
 | # | Tool | Inputs | Returns |
 |---|------|--------|---------|
@@ -78,7 +78,7 @@ All 10 tools return **live data** from free APIs — no hardcoded or mock respon
 
 ---
 
-## 📡 Free API Stack
+## Free API Stack
 
 | Purpose | API | Cost | Limits |
 |---------|-----|------|--------|
@@ -94,7 +94,7 @@ No paid APIs. No broker accounts required. No web scraping.
 
 ---
 
-## 🚀 Setup Guide
+## Setup Guide
 
 ### Prerequisites
 
@@ -156,7 +156,7 @@ After saving the config, restart Claude Desktop. The 10 IndiaQuant tools will ap
 
 ---
 
-## 💬 Example Conversations
+## Example Conversations
 
 After setup, try asking Claude:
 
@@ -175,7 +175,7 @@ After setup, try asking Claude:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 indiaquant-mcp/
@@ -192,7 +192,7 @@ indiaquant-mcp/
 
 ---
 
-## ⚡ Black-Scholes Implementation
+## Black-Scholes Implementation
 
 Greeks are calculated from first principles — no financial libraries used:
 
@@ -214,7 +214,7 @@ Where `N(x)` is the standard normal CDF (via `math.erf`) and `n(x)` is the stand
 
 ---
 
-## ⚠️ Limitations & Trade-offs
+## Limitations & Trade-offs
 
 | Limitation | Impact | Mitigation |
 |-----------|--------|------------|
@@ -228,7 +228,7 @@ Where `N(x)` is the standard normal CDF (via `math.erf`) and `n(x)` is the stand
 
 ---
 
-## 📋 Tech Stack
+## Tech Stack
 
 - **Language**: Python 3.10+
 - **MCP SDK**: FastMCP (official `mcp` package)
